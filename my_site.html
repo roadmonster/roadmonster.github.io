@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hao Li - Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hao Li</h1>
+    <p>6128 Isaac Ave SE, Auburn, WA</p>
+    <p>(253) 397-8136 | lihao@seattleu.edu</p>
+  </header>
+
+  <section id="summary">
+    <h2>Summary</h2>
+    <p>Skilled and experienced software engineer with a passion for building innovative and user-friendly applications. Proven ability to work independently and as part of a team to deliver high-quality results. Seeking a challenging position in a fast-paced environment where I can use my skills and experience to make a significant contribution.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <h3>Software Testing Engineer</h3>
+    <h4>Microsoft</h4>
+    <h5>Redmond, WA</h5>
+    <h6>2021/9 - 2022/12</h6>
+    <ul>
+      <li>Worked in Desktop Analytics Team</li>
+      <li>Manual testing and automatic testing for new features</li>
+      <li>Deploy code from Dev environment to PPE using Azure DevOps pipelines and run testing tasks</li>
+      <li>Collaborated with SDEs to design and implement testing cases for new features</li>
+      <li>Implemented the automatic testing scripts for all daily testing tasks and generate results by automatic querying the database</li>
+    </ul>
+
+    <h3>IT specialist Intern (Non-paid)</h3>
+    <h4>Quality Inn Hotel Seatac</h4>
+    <h5>Seattle WA</h5>
+    <h6>2023/9 - 2024/1</h6>
+    <ul>
+      <li>Worked with a team of two to build a hotel backend ERP system</li>
+      <li>Designed and developed a work shift arrangement software using Django and SQLite</li>
+      <li>User able to log in and input their availability and manager able to login and setup shift schedule</li>
+      <li>Software build in a client server style and a 3-layered architecture, where user access the UI and UI sends HTTP requests to backend API where all the computing logic happens then send back HTTP response</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <h3>Master of Science in Computer Science</h3>
+    <h4>Seattle University</h4>
+    <h5>Seattle, WA</h5>
+    <h6>2018 - 2021</h6>
+    
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    
+      <h3>Programming Languages</h3>
+      <p>Python, Java, C++, JavaScript</p>
+
+      <h3>Web Development Frameworks</h3>
+      <p>Django, SprintBoot</p>
+
+      <h3>Databases</h3>
+      <p>MySQL, MongoDB</p>
+
+      <h3>Cloud Computing</h3>
+      <p>AWS, Azure</p>
+      
+      <h3>Version Control</h3>
+      <p>Git, GitHub </p>
+    
+  </section>
+
+  <section id="projects">
+    <h2>Personal Projects</h2>
+    
+    <h3>Banking Service API using SpringBoot and Kafka</h3>
+    <p>Designed and implemented a banking service RESTful API.</p>
+    <p>Supporting async handling of deposit, withdraw, sending and querying db in a publish and subscribe way</p>
+
+    <h3>Weather Service API using Django and weather API</h3>
+    <p>Designed and implemented a RESTful weather API where user could login and see their saved location's weather.</p>
+    <p>User able to configure their preferences like units and language.</p>
+
+    <h3>Consistent Hashing Algorithm implementaion</h3>
+    <p>Designed and implemented the consistent hashing concept using Python in a low level, where agents syncing with each other using UDP.</p>
+    <p>open a port for querying and forward queries to the closest neighbor if the searching for data does not exist on current node</p>
+
+    <h3>Online Store Inventory and Sales backend API using SpringBoot and SpringCloud</h3>
+    <p>Designed and implemented a rudimentary online store, where client could send HTTP purchasing request and backend send request to inventory services running at a different host. </p>
+    <p>Inventory service shall send back result to order service which shall send request to bank API then confirm the sales with the inventory service to update the amount</p>
+
+  </section>
+
+  <footer>
+    <p>Copyright &copy; 2024 Hao Li</p>
+  </footer>
+</body>
+</html>
